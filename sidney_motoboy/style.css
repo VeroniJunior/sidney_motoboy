@@ -1,0 +1,41 @@
+/* GLOBAL CSS */
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+  
+button {
+	cursor: pointer;
+};
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+/* GLOBAL CSS */
+
+header {
+	display: flex;
+	background: #000000;
+	align-items: center;
+}
+
+.company-logo {
+	height: 22px;
+	display: flex;
+	padding-left: 20px;
+}
+
+nav {
+	color: #fff;
+}
+
+nav ul {
+	display: flex;
+    column-gap: 20px;
+}
