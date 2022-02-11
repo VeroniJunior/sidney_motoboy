@@ -117,8 +117,8 @@ li {
 	display: block;
 	background-color: #f5c3b1;
 	justify-items: baseline;
-	margin-top: 1vh;
-	margin-bottom: 1vh;
+	margin-top: 1.5px;
+	margin-bottom: 1.5px;
 }
 
 .carousel-div-img {
