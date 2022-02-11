@@ -117,19 +117,19 @@ li {
 	display: block;
 	background-color: #f5c3b1;
 	justify-items: baseline;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
 }
 
 .carousel-div-img {
 	max-width: auto;
-	max-height: 60vh;
+	max-height: 50vh;
 }
 
 /* .carousel-div-img-imagem {
 	max-width: 50%;
 	max-height: 50vh;
 } */
-
-.carousel-item
 
 /* .carousel-inner {
   width: 70vw;
