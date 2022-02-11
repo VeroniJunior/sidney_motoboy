@@ -99,7 +99,7 @@ li {
   transform-origin: bottom left;
 }
 
-/* img.img-responsive {
+img.img-responsive {
   border: 1px #fff solid;
   padding: 0.3em 0.3em 0.3em;
 }
@@ -107,7 +107,7 @@ li {
 img.img-responsive:hover {
   -webkit-transform: scale(1.1);
   transform: scaleX(1) 0.5;
-} */
+}
 
 /* BODY */
 
