@@ -11,14 +11,17 @@
 
 header {
   display: flex;
+  flex-wrap: wrap;
   width: 100;
   min-width: 30vw;
   font-family: "poppins", sans-serif;
   background-color: #000;
-  align-items: center;
+  align-items: stretch;
+  align-content: space-around;
   justify-content: space-around;
   min-height: 16vh;
   border-left: 2rem;
+  border: 300vw;
 }
 
 div.header-container {
@@ -29,7 +32,12 @@ div.header-container {
   align-items: center;
   height: 3vw;
   justify-content: space-around;
-  padding: 0 500px;
+  padding: 0 700px;
+}
+
+div#company-logo-header {
+  /* margin-left: 4vw; */
+  text-align: unset;
 }
 
 nav {
@@ -53,10 +61,11 @@ ul {
 li {
   text-align: center;
   justify-content: space-around;
+
   color: #fff;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin: 0 1rem 0;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 0 2vw 0;
 }
 
 .header-li-um {
@@ -90,7 +99,7 @@ li {
   transform-origin: bottom left;
 }
 
-img.img-responsive {
+/* img.img-responsive {
   border: 1px #fff solid;
   padding: 0.3em 0.3em 0.3em;
 }
@@ -98,22 +107,21 @@ img.img-responsive {
 img.img-responsive:hover {
   -webkit-transform: scale(1.1);
   transform: scaleX(1) 0.5;
-}
+} */
 
 /* BODY */
 
 /* Carousel */
 
 .section-container {
-    width: auto;
-    height:45vh;
+    /* width: auto;
+    height:45vh; */
   background-color: #f5c3b1;
 }
 
-.carousel img {
-	max-width: 30vw;
-	top: 0;
-	opacity: 0.9;
+.carousel-inner {
+  width: 70vw;
+  height: auto;
 }
 
 .carousel-caption {
@@ -162,5 +170,13 @@ img.img-responsive:hover {
 }
 
 .img-responsive {
-    height: auto;
+    height:auto;
+}
+
+.carousel-inner {
+  height: 50vh;
+}
+
+.carousel-inner < #carouselExampleControls <.section-container {
+  height: auto;
 }
