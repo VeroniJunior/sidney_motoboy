@@ -18,20 +18,20 @@ header {
 	align-items: stretch;
 	align-content: space-around;
 	justify-content: space-evenly;
-	min-height: 22vh;
+	min-height: 14vh;
 	border-left: 3vw;
 	border: 300vw;
-	font-size: 16vh;
+	font-size: 14vh;
 }
 
 div.header-container {
+	display: flex;
 	width: auto;
 	min-width: 10vw;
-	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	height: 3vw;
-
+	text-align: center;
 	font-family: "poppins", sans-serif;
 	font-size: 4vh;	
 }
@@ -40,17 +40,22 @@ nav {
 	display: flex;
 	/* width: 100%; */
 	align-items: center;
-	
+	justify-content: center;
 	justify-items: center;
-	margin-top: 1.5rem;
+	margin-top: .5rem;
 	margin-left: 0;
 	border: 0;
 	padding: ;
 }
 
-ul {
+.header-navemotherfucker{
+	justify-content: center;
+	justify-items: center;
+}
+
+ul{
 	display: flex;
-	justify-items: space-evenly;
+	justify-items: auto
 	align-items: center;
 }
 
