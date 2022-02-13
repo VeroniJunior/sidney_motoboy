@@ -12,9 +12,8 @@
 header {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100;
+	width: 100%;
 	min-width: 30vw;
-	font-family: "poppins", sans-serif;
 	background-color: #000;
 	align-items: stretch;
 	align-content: space-around;
@@ -25,30 +24,28 @@ header {
 }
 
 div.header-container {
-	width: 100%;
-	min-width: 20vw;
 	display: flex;
+	gap: 6px;
+	width: auto;
+	min-width: 10vw;
 	justify-content: space-evenly;
 	align-items: center;
 	height: 3vw;
-	justify-content: space-around;
-	padding: 0 700px;
-}
+	margin: 0;
+	padding: 0;
 
-div#company-logo-header {
-	/* margin-left: 4vw; */
-	text-align: unset;
+	font-family: "poppins", sans-serif;
+	font-size: 4vh;	
 }
 
 nav {
 	display: flex;
-	width: auto;
+	width: 100;
 	text-align: center;
 	align-items: center;
 	justify-content: space-around;
 	justify-items: center;
 	margin-top: 1.5rem;
-	width: auto;
 }
 
 ul {
@@ -56,6 +53,7 @@ ul {
 	text-align: center !important;
 	justify-items: space-evenly;
 	align-items: center;
+	padding: 0 0 0 0;
 }
 
 li {
@@ -63,9 +61,10 @@ li {
 	justify-content: space-around;
 
 	color: #fff;
-	padding-left: 2vw;
-	padding-right: 2vw;
-	margin: 0 2vw 0;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0 12px 0;
+	/* background: #fff; */
 }
 
 .header-li-um {
@@ -101,7 +100,7 @@ li {
 
 #company-logo-header {
 	border: 1px #fff solid;
-	padding: 0.3em 0.3em 0.3em;
+	padding: 0.3vw 0.3vw;
 }
 
 #company-logo-header:hover {
@@ -110,278 +109,27 @@ li {
 }
 
 /* BODY */
-
+/* oneSelection */
 /* Carousel */
 
 .section-container {
 	display: block;
-	background-color: #f5c3b1;
+	background-position: 45deg #000;
+	background-image: linear-gradient(-90deg, transparent, #BD502A 45%, #BD502A 50%, #BD502A 95% );
 	justify-items: baseline;
 	margin-top: 1.5px;
 	margin-bottom: 1.5px;
 }
 
-.carousel-div-img {
-	max-width: auto;
-	max-height: 50vh;
+.carousel-inner {
+	height: 25vw;
 }
-
-/* .carousel-div-img-imagem {
-	max-width: 50%;
-	max-height: 50vh;
-} */
-
-/* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ /* .carousel-inner {
-  width: 70vw;
-  height: auto;
-} */
-
-/* .carousel-caption {
-
-	justify-content: center;
-	/* margin: 0 12vmax; */
-	/* border-style: outset;
-	color-interpolation-filters: auto;
-	font-size: 2.0vh;
-	left: 1px;
-} */ */
-
-/* .carousel-caption > h5 {
-	font-family: ca Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	/* font-weight: 200; */
-	/* font-weight: bolder;
-	font-size: solid;
-} */ */; /* .carousel-caption: hover {
-	backface-visibility: hidden;
-	border-color: #ffffff;
-} */
-
-/* .carousel-caption > p {
-	border: black 2px;
-	color-interpolation-filters: auto;
-	text-decoration: none;
-} */
-
-/* .btn-outline-dark {
-	border: none;
-	max-width: 20vw;
-}
-
-.btn-outline-dark:hover {
-	color: #000;
-	background-color: #fff;
-	border: none;
-	background-color: none;
-} */
 
 /* .carousel-item {
-    display: flex;
-    width: 100%;
+	background-image: 109g #f5c3b1;
 } */
 
-/* .img-responsive {
-    height:auto;
-} */
-
-/* .carousel-inner {
-  height: 50vh;
-} */
-
-/* .carousel-inner < #carouselExampleControls <.section-container {
-  height: auto;
-} */
+#carousel-div-img-imagem {
+	height: 25vw;
+}
+/* twoSelectio
