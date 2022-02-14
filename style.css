@@ -7,7 +7,9 @@
 	box-sizing: border-box;
 }
 
-ul, li, .h6 {
+ul,
+li,
+.h6 {
 	margin: 0 !important;
 	padding: 0 !important;
 	outline: 0;
@@ -17,41 +19,46 @@ ul, li, .h6 {
 /* HEADERS */
 
 header {
+	position: fixed;
 	display: flex;
 	flex-wrap: wrap;
-	width: auto;
+	width: 100%;
 	background-color: #000;
 	align-items: stretch;
 	align-content: space-around;
 	justify-content: space-evenly;
 	min-height: 12vh;
+	z-index: 9;
 }
 
 div.header-container {
 	display: flex;
+	top: 2.5vh;
 	width: auto;
 	min-width: 10vw;
 	justify-content: space-evenly;
 	align-items: center;
 	height: 3vw;
 	text-align: center;
-	font-family: "poppins", sans-serif;	
+	font-family: "poppins", sans-serif;
 	column-gap: 5vw;
+	background: #000;
 }
 
 nav {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	justify-items: center;
 }
 
-.header-navemotherfucker{
+.header-navemotherfucker {
 	justify-content: center;
 	justify-items: center;
 }
 
-ul.oneList{
+ul.oneList {
 	display: flex;
 	justify-items: auto;
 	justify-content: space-around;
@@ -63,15 +70,14 @@ li#list-header-menu {
 	justify-content: space-around;
 	color: #fff;
 	outline: none;
-    box-sizing: none; 
-    margin: none !important; 
-    padding: none !important;
+	box-sizing: none;
+	margin: none !important;
+	padding: none !important;
 	list-style-type: none;
 }
 
 #header-menu-p {
 	font-size: 2.2vh;
-
 }
 
 .hover-underline-animation {
@@ -97,41 +103,57 @@ li#list-header-menu {
 	transform-origin: bottom left;
 }
 
-#company-logo-header {
+.intrometido-header {
 	width: 25%;
 	height: 5vh;
 	content: url(img/company-logo.png);
-	border: 1px #fff solid;
+	border: 0.02em #fff solid;
 	padding: 0.3vw 0.3vw;
 }
 
-#company-logo-header:hover {
+.intrometido-header:hover {
 	-webkit-transform: scale(1.1);
 	transform: scaleX(1) 0.5;
 }
 
-/* BODY */
-/* oneSelection */
-/* Carousel */
+/* BODY 
+	oneSelection
+		Carousel */
 
 .section-container {
 	display: block;
-	background-position: 45deg #000;
-	background-image: linear-gradient(-90deg, transparent, #BD502A 45%, #BD502A 50%, #BD502A 95% );
-	justify-items: baseline;
-	margin-top: 1.5px;
-	margin-bottom: 1.5px;
+	position: static;
+	background-position: 45deg #53331d;
+	background-image: linear-gradient(
+		-90deg,
+		transparent,
+		#53331d 45%,
+		#53331d 50%,
+		#53331d 95%
+	);
+	justify-items: center;
+	align-items: center;
 }
 
-.carousel-inner {
-	width: auto;
+.carousel-item {
+	height: 32vw;
 }
 
-/* .carousel-item {
+#carouselExampleControls {
 	background-image: 109g #f5c3b1;
-} */
-z
-#carousel-div-img-imagem {
-	width: auto;
+	height: auto;
 }
-/* twoSelectio
+
+#carousel-div-img-imagem {
+	height: 32vw;
+}
+
+#texto-carousel {
+	margin: 0vw 0vw 6vw 48vw;
+}
+
+.row {
+	margin-right: 0;
+	-bs-gutter-x: 0;
+	border: 0;
+}
