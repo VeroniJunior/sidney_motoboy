@@ -98,7 +98,8 @@ li#list-header-menu {
 }
 
 #company-logo-header {
-	width: 10vw;
+	width: 25%;
+	height: 5vh;
 	content: url(img/company-logo.png);
 	border: 1px #fff solid;
 	padding: 0.3vw 0.3vw;
