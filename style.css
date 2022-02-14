@@ -7,21 +7,24 @@
 	box-sizing: border-box;
 }
 
+ul, li, .h6 {
+	margin: 0 !important;
+	padding: 0 !important;
+	outline: 0;
+	box-sizing: border-box;
+}
+
 /* HEADERS */
 
 header {
 	display: flex;
 	flex-wrap: wrap;
 	width: auto;
-	/* min-width: 30vw; */
 	background-color: #000;
 	align-items: stretch;
 	align-content: space-around;
 	justify-content: space-evenly;
-	min-height: 14vh;
-	border-left: 3vw;
-	border: 300vw;
-	font-size: 14vh;
+	min-height: 12vh;
 }
 
 div.header-container {
@@ -32,20 +35,15 @@ div.header-container {
 	align-items: center;
 	height: 3vw;
 	text-align: center;
-	font-family: "poppins", sans-serif;
-	font-size: 4vh;	
+	font-family: "poppins", sans-serif;	
+	column-gap: 5vw;
 }
 
 nav {
 	display: flex;
-	/* width: 100%; */
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	justify-items: center;
-	margin-top: .5rem;
-	margin-left: 0;
-	border: 0;
-	padding: ;
 }
 
 .header-navemotherfucker{
@@ -53,29 +51,27 @@ nav {
 	justify-items: center;
 }
 
-ul{
+ul.oneList{
 	display: flex;
-	justify-items: auto
-	align-items: center;
+	justify-items: auto;
+	justify-content: space-around;
+	column-gap: 6vw;
 }
 
-li {
+li#list-header-menu {
 	text-align: center;
 	justify-content: space-around;
-
 	color: #fff;
-	padding-left: 2.5vw;
-	/* padding-right: 2.5vw; */
-	margin: 0 3vw 0;
-}
-
-.header-li-um {
+	outline: none;
+    box-sizing: none; 
+    margin: none !important; 
+    padding: none !important;
 	list-style-type: none;
-	align-items: center;
 }
 
-.header-li-dois::marker {
-	color: rgb(134, 100, 100);
+#header-menu-p {
+	font-size: 2.2vh;
+
 }
 
 .hover-underline-animation {
@@ -102,6 +98,8 @@ li {
 }
 
 #company-logo-header {
+	width: 10vw;
+	content: url(img/company-logo.png);
 	border: 1px #fff solid;
 	padding: 0.3vw 0.3vw;
 }
