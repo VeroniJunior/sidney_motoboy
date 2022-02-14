@@ -151,9 +151,3 @@ li#list-header-menu {
 #texto-carousel {
 	margin: 0vw 0vw 6vw 48vw;
 }
-
-.row {
-	margin-right: 0;
-	-bs-gutter-x: 0;
-	border: 0;
-}
