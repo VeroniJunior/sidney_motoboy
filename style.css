@@ -1,119 +1,43 @@
-/* CSS GLOBAIS */
-
-* {
+body {
 	margin: 0;
 	padding: 0;
-	outline: 0;
-	box-sizing: border-box;
 }
 
-ul,
-li,
-.h6 {
-	margin: 0 !important;
-	padding: 0 !important;
-	outline: 0;
-	box-sizing: border-box;
+#lista-ordenada {
+	list-style: none;
+	padding: 0;
 }
 
-/* HEADERS */
+#menu-responsivo {
+	background-color: black;
+	padding: 0 20px;
+	justify-content: space-between;
+}
 
-header {
-	position: fixed;
+h1,
+#paragrafo-lista {
+	color: #ffffff;
+}
+
+#paragrafo-lista {
+	margin-top: 0 !important;
+}
+
+#menu-responsivo,
+#lista-ordenada {
 	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	background-color: #000;
-	align-items: stretch;
-	align-content: space-around;
-	justify-content: space-evenly;
-	min-height: 12vh;
-	z-index: 9;
+	flex-direction: row;
 }
 
-div.header-container {
-	display: flex;
-	top: 2.5vh;
-	width: auto;
-	min-width: 10vw;
-	justify-content: space-evenly;
-	align-items: center;
-	height: 3vw;
-	text-align: center;
-	font-family: "poppins", sans-serif;
-	column-gap: 5vw;
-	background: #000;
+#lista-ordenada-individual {
+	padding: 0 20px;
 }
 
-nav {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	justify-items: center;
-}
-
-.header-navemotherfucker {
-	justify-content: center;
-	justify-items: center;
-}
-
-ul.oneList {
-	display: flex;
-	justify-items: auto;
-	justify-content: space-around;
-	column-gap: 6vw;
-}
-
-li#list-header-menu {
-	text-align: center;
-	justify-content: space-around;
-	color: #fff;
-	outline: none;
-	box-sizing: none;
-	margin: none !important;
-	padding: none !important;
-	list-style-type: none;
-}
-
-#header-menu-p {
-	font-size: 2.2vh;
-}
-
-.hover-underline-animation {
-	display: inline-block;
-	position: relative;
-}
-
-.hover-underline-animation:after {
-	content: "";
-	position: absolute;
-	width: 100%;
-	transform: scaleX(0);
-	height: 2px;
-	bottom: 0;
-	left: 0;
-	background-color: #c9552d;
-	transform-origin: bottom right;
-	transition: transform 0.35s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-	transform: scaleX(1);
-	transform-origin: bottom left;
-}
-
-.intrometido-header {
-	width: 25%;
-	height: 5vh;
-	content: url(img/company-logo.png);
-	border: 0.02em #fff solid;
-	padding: 0.3vw 0.3vw;
-}
-
-.intrometido-header:hover {
-	-webkit-transform: scale(1.1);
-	transform: scaleX(1) 0.5;
+h1:hover,
+#lista-ordenada-individual:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* BODY 
@@ -149,5 +73,5 @@ li#list-header-menu {
 }
 
 #texto-carousel {
-	margin: 0vw 0vw 6vw 48vw;
+	margin: 0vw 0vw 5vw 48vw;
 }
