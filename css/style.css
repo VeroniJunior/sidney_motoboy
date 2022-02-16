@@ -3,11 +3,31 @@ body {
 	padding: 0;
 }
 
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	border: 0;
+	margin: 0;
+	font-weight: 0;
+	line-height: 0;
+}
+
 #ul-lista-ordenada {
 	list-style: none;
 	padding: 0;
-	align-content: center;
+	/* align-content: center; */
 	flex-wrap: wrap;
+	overflow: hidden;
+	transition: all 0.5s;
 }
 
 #nav-menu-responsivo {
@@ -17,10 +37,14 @@ body {
 }
 
 #h1-menu-titulo {
-	border: 0 !important;
-	padding: 0 20px !important;
-	margin: 8px 0 8px 0;
-	align-content: center;
+	padding: 0 16px;
+	margin: 2.5px 0 0 0;
+}
+
+#logo-menu {
+	margin: 0 0 10px;
+	padding: 2px;
+	border: #ffffff solid 1px;
 }
 
 #h1-menu-titulo,
@@ -29,7 +53,8 @@ body {
 }
 
 #p-paragrafo-lista {
-	margin: 0 0 0 0 !important ;
+	/* margin: 10px 0 0 0 !important ; */
+	justify-content: center;
 }
 
 #ul-lista-ordenada {
@@ -41,12 +66,12 @@ body {
 #nav-menu-responsivo {
 	display: flex;
 	flex-direction: row;
-	margin: 0 !important;
+	/* margin: 0 !important; */
 }
 
 #li-lista-ordenada-individual {
 	justify-content: center;
-	padding: 10px 20px 10px !important;
+	padding: 15px 20px 0px 20px;
 }
 
 h1-meu-titulo {
@@ -65,31 +90,63 @@ button {
 	display: none;
 }
 
-#h1-menu-titulo:hover,
 #li-lista-ordenada-individual:hover,
+#h1-div:hover,
 button:hover {
 	cursor: pointer;
 	opacity: 0.8;
 	background-color: rgba(252, 247, 247, 0.394);
 }
 
+button:focus ~ #ul-lista-ordenada {
+	height: 132px;
+}
+
 @media (max-width: 700px) {
 	#nav-menu-responsivo,
 	#ul-lista-ordenada {
-		flex-direction: column !important;
-		align-items: unset !important;
+		flex-direction: column;
 	}
 
 	#ul-lista-ordenada {
 		text-align: center !important;
+		margin: 0;
+		height: 0;
 	}
 
 	#nav-menu-responsivo {
-		padding: 10px;
+		padding: 0 0 0 0;
+		align-items: flex-start;
+	}
+
+	#h1-div {
+		margin: 0;
+	}
+
+	h1-menu-titulo {
+		margin: 0 !important;
+	}
+
+	#logo-menu {
+		margin: 10px 0 !important;
+	}
+
+	#p-paragrafo-lista {
+		margin: 0 !important;
 	}
 
 	button {
+		top: 0;
 		display: flex;
+	}
+
+	#ul-lista-ordenada,
+	#li-lista-ordenada-individual {
+		width: 100%;
+	}
+
+	#li-lista-ordenada-individual {
+		padding: 10px;
 	}
 }
 
