@@ -26,7 +26,8 @@ h6 {
 }
 
 #h1-div {
-	padding: 5px;
+	padding: 10px;
+	margin: 0;
 }
 
 #ul-lista-ordenada {
@@ -78,7 +79,7 @@ h6 {
 #li-lista-ordenada-individual {
 	justify-content: center;
 	align-items: center;
-	padding: 20px 20px 10px;
+	padding: 23px 30px 10px;
 }
 
 #h1-meu-titulo {
@@ -129,7 +130,7 @@ button:focus ~ #ul-lista-ordenada {
 	}
 
 	#h1-div {
-		padding-top: 5px !important;
+		padding-top: 11px !important;
 		margin-top: 0px !important;
 	}
 
@@ -139,11 +140,8 @@ button:focus ~ #ul-lista-ordenada {
 
 	button {
 		display: flex;
-		align-items: center;
-		justify-items: center;
 		top: 0;
-		margin: 0px 10px 0 !important;
-		padding: 2px 20px 5px !important;
+		padding: 8px 22px 10px !important;
 		border: 0 !important;
 	}
 
@@ -157,8 +155,9 @@ button:focus ~ #ul-lista-ordenada {
 	}
 
 	#logo-menu {
+		padding: 2px;
+		border: #ffffff solid 0.2px;
 		margin: 0 !important;
-		padding: 0 !important;
 	}
 }
 
