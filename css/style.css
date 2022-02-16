@@ -1,3 +1,7 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -21,10 +25,16 @@ h6 {
 	line-height: 0;
 }
 
+#h1-div {
+	padding: 5px;
+}
+
 #ul-lista-ordenada {
+	display: flex;
+	flex-direction: row;
+	margin: 0 !important;
 	list-style: none;
 	padding: 0;
-	/* align-content: center; */
 	flex-wrap: wrap;
 	overflow: hidden;
 	transition: all 0.5s;
@@ -37,46 +47,44 @@ h6 {
 }
 
 #h1-menu-titulo {
-	padding: 0 16px;
+	padding: 0 10px 10px;
 	margin: 2.5px 0 0 0;
 }
 
 #logo-menu {
-	margin: 0 0 10px;
 	padding: 2px;
-	border: #ffffff solid 1px;
+	border: #ffffff solid 0.2px;
 }
 
 #h1-menu-titulo,
 #p-paragrafo-lista {
 	color: #ffffff;
+	text-align: center;
+	align-items: center;
 }
 
 #p-paragrafo-lista {
-	/* margin: 10px 0 0 0 !important ; */
+	align-items: center;
+	text-align: center;
 	justify-content: center;
-}
-
-#ul-lista-ordenada {
-	display: flex;
-	flex-direction: row;
-	margin: 0 !important;
+	margin-top: 5px;
 }
 
 #nav-menu-responsivo {
 	display: flex;
 	flex-direction: row;
-	/* margin: 0 !important; */
 }
 
 #li-lista-ordenada-individual {
 	justify-content: center;
-	padding: 15px 20px 0px 20px;
+	align-items: center;
+	padding: 20px 20px 10px;
 }
 
-h1-meu-titulo {
+#h1-meu-titulo {
+	align-items: center;
 	margin: 0;
-	padding: 10px;
+	padding: 0 20px 0 20px;
 }
 
 button {
@@ -88,6 +96,7 @@ button {
 	right: 10px;
 	top: 10px;
 	display: none;
+	padding-top: 10px;
 }
 
 #li-lista-ordenada-individual:hover,
@@ -120,15 +129,8 @@ button:focus ~ #ul-lista-ordenada {
 	}
 
 	#h1-div {
-		margin: 0;
-	}
-
-	h1-menu-titulo {
-		margin: 0 !important;
-	}
-
-	#logo-menu {
-		margin: 10px 0 !important;
+		padding-top: 5px !important;
+		margin-top: 0px !important;
 	}
 
 	#p-paragrafo-lista {
@@ -136,8 +138,13 @@ button:focus ~ #ul-lista-ordenada {
 	}
 
 	button {
-		top: 0;
 		display: flex;
+		align-items: center;
+		justify-items: center;
+		top: 0;
+		margin: 0px 10px 0 !important;
+		padding: 2px 20px 5px !important;
+		border: 0 !important;
 	}
 
 	#ul-lista-ordenada,
@@ -147,6 +154,11 @@ button:focus ~ #ul-lista-ordenada {
 
 	#li-lista-ordenada-individual {
 		padding: 10px;
+	}
+
+	#logo-menu {
+		margin: 0 !important;
+		padding: 0 !important;
 	}
 }
 
